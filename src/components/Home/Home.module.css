@@ -1,0 +1,132 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 25px - 1.5vh - 1.5vh);
+    padding-top: calc(25px + 1.5vh + 1.5vh);
+    background-color: #020016;
+    background-image: url(../../img/background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.firstHalf{
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: default;
+}
+.firstHalf h1{
+    font-size: 15vw;
+    line-height: 15vw;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 2vw;
+    color: rgba(255, 255, 255, 0.196);
+}
+.firstHalf h2{
+    margin-left: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 5vw;
+    line-height: 6vw;
+    font-weight: 600;
+}
+.firstHalf h3{
+    font-weight: 400;
+    margin-left: 3vw;
+    font-size: 2vw;
+    margin-top: 0;
+}
+.secondHalf{
+    width: 100%;
+    position: relative;
+    height: calc(100vh - 25px - 1.5vh - 1.5vh - 60vh);
+}
+.polygon{
+    pointer-events: none;
+    position: absolute;
+    width: 101%;
+    left: -5px;
+}
+.myimg{
+    position: absolute;
+    top: -26vw;
+    right: 16.7vw;
+    width:35vw;
+    pointer-events: none;
+}
+.pink{
+    color: #FF2C91;
+    margin-left: 10px !important;
+}
+.name{
+    display: flex;
+}
+.divider{
+    width: 30vw;
+    background-color: #FF2C91;
+    height: 5px;
+    margin-left: 3vw;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 15px;
+}
+.quote{
+    z-index: 1;
+    position: absolute;
+    left: 3vw;
+    font-size: 1.8vw;
+    top: 4vh;
+}
+.quote h5{
+    margin: 0;
+    margin-top: 5px;
+}
+.quote h5:nth-child(1){
+    opacity: 0.5;
+}
+.followMe{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    right: 1vw;
+    top: 10vw;
+    color: #EEEEEE;
+    
+}
+.followMe h3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    transform: rotate(90deg);
+    margin: 0;
+    font-size: 2vh;
+}
+.followDivider{
+    width: 0.6vh;
+    height: 15vh;
+    border-radius: 20px;
+    background-color: #FF2C91;
+}
+.socialIcons{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -3.5vh;
+}
+.icon{
+    cursor: pointer;
+}
+.icon svg path{
+    transition: 0.3s ease;
+}
+.icon:hover svg path{
+    fill: #FF2C91;
+}
+.icon:hover svg g path{
+    fill: #020016;
+}

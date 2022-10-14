@@ -1,0 +1,6 @@
+.container{
+    width: 100%;
+    height: calc(100vh - 25px - 1.5vh - 1.5vh);
+    padding-top: calc(25px + 1.5vh + 1.5vh);
+    background-color: rgb(251, 0, 255);
+}
