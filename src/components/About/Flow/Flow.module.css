@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    height: 26vh;
+}
+.container path{
+    stroke: #FF2C91 !important;
+    stroke-width: 0.3%;
+}
+.container strong{
+    color: #FF2C91;
+}

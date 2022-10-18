@@ -2,5 +2,47 @@
     width: 100%;
     height: calc(100vh - 25px - 1.5vh - 1.5vh);
     padding-top: calc(25px + 1.5vh + 1.5vh);
-    background-color: rgb(238, 255, 0);
+    background-color: #000012;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vh;
+}
+.about{
+    text-align: center;
+    width: 60vw;
+    background-color: #0d0d1a;
+    padding: calc(2vw + 2vh);
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-radius: 15px;
+}
+.titleContainer{
+    position: relative;
+}
+.titleContainer h2{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    top: calc(-0.7vw - 0.7vh);
+    text-align: center;
+    font-size: calc(1.7vh + 1.7vw);
+    color: rgba(255, 255, 255, 0.207);
+}
+.titleContainer h3{
+    z-index: 1;
+    margin: 0;
+    font-size: calc(1.1vh + 1.1vw);
+}
+.aboutMe{
+    margin: 0;
+    font-size: calc(0.9vh + 0.9vw);
+}
+.aboutMe em{
+    color: #FF2C91;
 }
